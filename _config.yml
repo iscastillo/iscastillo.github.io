@@ -13,32 +13,33 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-<<<<<<< HEAD
-=======
 title: Affordable Housing
->>>>>>> 23410594caa889a3b3e8e9a8cb21011baedb7218
-email: egg@example.com
+email: HACA@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  HACA
+  Website for Affordable Housing.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://iscastillo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-<<<<<<< HEAD
-twitter_username: Pham just ate my name now
-github_username:  why are we so bad at this
-    
-=======
-twitter_username: Egg
-github_username:  Egg was taken
+twitter_username: HACA
+github_username:  HACA
 
->>>>>>> 23410594caa889a3b3e8e9a8cb21011baedb7218
 # Build settings
 markdown: kramdown
-theme: modern
+theme: minima
 plugins:
   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+ot be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
 #   - Gemfile
