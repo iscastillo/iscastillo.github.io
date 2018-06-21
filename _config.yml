@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 <<<<<<< HEAD
-title: Kevin is too mean
 =======
 title: Affordable Housing
 >>>>>>> 23410594caa889a3b3e8e9a8cb21011baedb7218
@@ -23,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   HACA
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://iscastillo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-<<<<<<<
+<<<<<<< HEAD
 twitter_username: Pham just ate my name now
 github_username:  why are we so bad at this
     
