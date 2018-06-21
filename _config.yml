@@ -19,8 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   More Eggs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://iscastillo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Egg
-github_username:  Egg was taken
+twitter_username: #Mr. HACA Hasouing
+github_username:  Egg was mine but kavin take it
 
 # Build settings
 markdown: kramdown
