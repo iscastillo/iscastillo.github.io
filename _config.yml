@@ -39,7 +39,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-ot be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
 #   - Gemfile
