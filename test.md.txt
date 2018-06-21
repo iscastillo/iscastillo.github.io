@@ -1,1 +1,7 @@
 ##This is a markdown file
+
+---
+layout: page
+title: Houses
+permalink: /houses/
+---
