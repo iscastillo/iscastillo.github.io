@@ -2871,14 +2871,3 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
-#nav {
-width:750px;
-margin:0 auto;
-list-style:none;
-}
-#nav a {
-display:block;
-text-align:center;
-width:150px; /* fixed width */
-text-decoration:none; 
-}
