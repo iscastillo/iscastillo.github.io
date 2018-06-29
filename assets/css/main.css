@@ -2441,6 +2441,7 @@ body {
     color: inherit;
     display: inline-block;
     padding: 0 0.75rem;
+	text-align:center;
     text-decoration: none; }
     #header > nav > a:hover {
       color: #ffffff; }
