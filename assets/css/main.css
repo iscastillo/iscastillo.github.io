@@ -2436,13 +2436,11 @@ body {
     height: inherit;
     line-height: inherit;
     padding: 0 1.25rem;
-	text-align:center;
     text-decoration: none; }
   #header > nav > a {
     color: inherit;
     display: inline-block;
     padding: 0 0.75rem;
-	text-align:center;
     text-decoration: none; }
     #header > nav > a:hover {
       color: #ffffff; }
@@ -2455,7 +2453,6 @@ body {
         font-family: FontAwesome;
         font-style: normal;
         font-weight: normal;
-		text-align:center;
         text-transform: none !important; }
       #header > nav > a[href="#menu"]:before {
         content: '\f0c9';
