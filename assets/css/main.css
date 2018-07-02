@@ -2823,5 +2823,6 @@ body.is-menu-visible #menu {
 .maps {
     width: 1680px;
     display: block;
-    margin: 0 auto;
+    margin-right: auto;
+	margin-left: auto;
 }
