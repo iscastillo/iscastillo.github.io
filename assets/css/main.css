@@ -1374,6 +1374,42 @@ ul.actions {
       margin-top: -3rem; }
       .row.gtr-200.gtr-uniform > * {
         padding-top: 3rem; } }
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
 @media screen and (max-width: 980px) {
   .row {
     display: flex;
@@ -2428,21 +2464,18 @@ body {
   top: 0;
   width: 100%;
   z-index: 10001; }
-
-> .logo {
+  #header > .logo {
     color: #ffffff;
     font-size: 1rem;
     font-weight: 600;
     height: inherit;
     line-height: inherit;
     padding: 0 1.25rem;
-	text-align:center;
     text-decoration: none; }
   #header > nav > a {
     color: inherit;
     display: inline-block;
     padding: 0 0.75rem;
-	text-align:center;
     text-decoration: none; }
     #header > nav > a:hover {
       color: #ffffff; }
@@ -2455,7 +2488,6 @@ body {
         font-family: FontAwesome;
         font-style: normal;
         font-weight: normal;
-		text-align:center;
         text-transform: none !important; }
       #header > nav > a[href="#menu"]:before {
         content: '\f0c9';
@@ -2799,7 +2831,7 @@ body {
     width: 7rem; }
     #menu .close:before {
       -moz-osx-font-smoothing: grayscale;
-      -webkit-font-smoothing: antialiased;
+      /* /* /* /* /* -webkit-font-smoothing: antialiased; */ */ */ */ */
       font-family: FontAwesome;
       font-style: normal;
       font-weight: normal;
@@ -2824,14 +2856,4 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
-#nav {
-width:750px;
-margin:0 auto;
-list-style:none;
-}
-#nav a {
-display:block;
-text-align:center;
-width:150px; /* fixed width */
-text-decoration:none; 
-}
+
