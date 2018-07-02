@@ -2821,7 +2821,7 @@ body.is-menu-visible #menu {
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
 .maps {
-    width: 1680px;
+    width: 200px;
     display: block;
     margin-right: auto;
 	margin-left: auto;
