@@ -2859,7 +2859,7 @@ body.is-menu-visible #menu {
 
 @media screen and (max-width: 1000px) {
   .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
+  .topnav a. {
     float: right;
     display: block;
   }
