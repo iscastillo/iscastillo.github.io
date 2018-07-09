@@ -2867,7 +2867,7 @@ body.is-menu-visible #menu {
 
 @media screen and (max-width: 1000px) {
   .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
+  .topnav.responsive . {
     position: absolute;
     right: 0;
     top: 0;
