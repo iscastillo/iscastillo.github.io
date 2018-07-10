@@ -41,7 +41,7 @@
 				resetForms: true,
 				side: 'right'
 			});
-	})(jQuery);
+	
 	
 	
 	// this is the ugly code that supposed to make my buttone work on the Resource page 
@@ -67,3 +67,4 @@
 	// this is the end of this ugly code and it still doesn't work 
 
 
+})(jQuery);
