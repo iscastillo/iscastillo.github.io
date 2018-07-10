@@ -29,8 +29,7 @@
 				<a href="#menu">Menu</a>
 				</nav>
 			</header>
-		
-		
+
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
@@ -212,7 +211,7 @@
 			</footer>
 
 
-<IfModule mod_deflate.c>
+IfModule mod_deflate.c
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/javascript
 AddOutputFilterByType DEFLATE text/html
@@ -251,7 +250,7 @@ Header append Vary User-Agent env=!dont-vary
 </IfModule>
 
 
-## EXPIRES CACHING ##
+ EXPIRES CACHING 
 <IfModule mod_expires.c>
 ExpiresActive On
 ExpiresDefault "access plus 1 week"
@@ -288,23 +287,23 @@ ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
 ExpiresByType application/x-font-ttf "access plus 1 month" 
 ExpiresByType font/opentype "access plus 1 month" 
 </IfModule>
-## EXPIRES CACHING ##
+ EXPIRES CACHING 
 
-<IfModule mod_headers.c>
-<FilesMatch "\.(ico|pdf|flv|swf|js|css|gif|png|jpg|jpeg|txt|html|htm)$">
+IfModule mod_headers.c
+FilesMatch "\.(ico|pdf|flv|swf|js|css|gif|png|jpg|jpeg|txt|html|htm)$"
 Header set Cache-Control "max-age=2592000, public"
-</FilesMatch>
-</IfModule>
+FilesMatch
+IfModule
 
 
-<IfModule mod_headers.c>
-  <FilesMatch "\.(js|css|xml|gz)$">
+IfModule mod_headers.c
+  FilesMatch "\.(js|css|xml|gz)$"
     Header append Vary Accept-Encoding
-  </FilesMatch>
-</IfModule>
+  FilesMatch
+IfModule
 
 
-<IfModule mod_gzip.c>
+IfModule mod_gzip.c
   mod_gzip_on Yes
   mod_gzip_dechunk Yes
   mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
@@ -313,18 +312,17 @@ Header set Cache-Control "max-age=2592000, public"
   mod_gzip_item_include mime ^application/x-javascript.*
   mod_gzip_item_exclude mime ^image/.*
   mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
-</IfModule>
 
-<IfModule mod_headers.c>
+IfModule mod_headers.c
     Header set Connection keep-alive
-</IfModule>
+IfModule
 
-<IfModule mod_expires.c> 
-  <IfModule mod_headers.c> 
+IfModule mod_expires.c
+  IfModule mod_headersc
     Header unset ETag 
-  </IfModule> 
+  IfModule
   FileETag None 
-</IfModule>
+IfModule
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
