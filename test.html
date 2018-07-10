@@ -4,13 +4,16 @@
 <!--- TEST --->
 
 <html>
-		<form action="test2.html">
-			<input id="test" name="t1" type="text" />
+<div id="t1"></div>
+
+		<form action="http://www.google.com">
+			<input id="test" name="q" type="text" />
+		<br>
 			<input type="submit" value="Send Text">
 		</form>
 
 
-	<form action="http://haca.gosection8.com/SearchRentals.aspx" method="GET"> 	
+	<!--<form action="http://haca.gosection8.com/SearchRentals.aspx" method="GET"> 	
 	<input id="test1" type="checkbox" name="dnn_ctr961_MasterPHAControl_PropertySearch1_bed0">
 			<label for="test1">TEST</label>
 	<input type="submit" align="center">Submit</button>
@@ -18,5 +21,20 @@
 	<br>
 	<br>
 	<form action="http://haca.gosection8.com/SearchRentals.aspx">
-		<button type="submit" align="center">Submit</button>
+		<button type="submit" align="center">Submit</button> -->
+		
+	<!-- JS Scripts -->
+<script language="JavaScript">
+  function processUser()
+  {
+    var parameters = location.search.substring(1).split("&");
+
+    var temp = parameters[0].split("=");
+    l = unescape(temp[1]);
+    temp = parameters[1].split("=");
+    p = unescape(temp[1]);
+    document.getElementById("test").innerHTML = l;
+	getElementById("t1").innerHTML = login;
+  }
+</script>
 <html>
