@@ -2894,5 +2894,10 @@ body.is-menu-visible #menu {
   padding-left: 30px;
   padding-right: 10px;
 }
-
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
 }
