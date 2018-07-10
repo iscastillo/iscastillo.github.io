@@ -4,13 +4,49 @@
 <!--- TEST --->
 
 <html>
+<head>
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+
+
+
+<style>
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+</style>
+
+
+
+
 <div id="t1"></div>
 
 		<form action="test2.html">
 			<input id="t1" name="t" type="text" value="" />
 			<input type="submit" value="Send Text">
 		</form>
+		
 
+
+		<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
 
 	<!--<form action="http://haca.gosection8.com/SearchRentals.aspx" method="GET"> 	
 	<input id="test1" type="checkbox" name="dnn_ctr961_MasterPHAControl_PropertySearch1_bed0">
@@ -35,5 +71,21 @@
     document.getElementById("test").innerHTML = l;
 	getElementById("t1").innerHTML = login;
   }
+</script>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
 </script>
 <html>
