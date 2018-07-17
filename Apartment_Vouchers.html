@@ -53,8 +53,25 @@
 						</header>
 						<p>A housing voucher is a voucher that can be spent on rented housing, such as Section 8 public housing in the United States, along with universal housing vouchers. The book Evicted advocates that the U.S. government issue housing vouchers to families below a certain income threshold so that they pay no more than 30 percent of their income on housing. </p>
 						<hr />
-						</script><iframe src="https://www.google.com/maps/d/embed?mid=1OwvoSrcL2VCwBDINIzD_fpYBMeGVVzz1" width="640" height="480"></iframe>
-						</script>
+						<style>
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+</style>
+
+<div class="google-maps">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1OwvoSrcL2VCwBDINIzD_fpYBMeGVVzz1" width="640" height="640" frameborder="0" style="border:0"></iframe>
+</div>
 						</form>
 					</div>
 				</div>
